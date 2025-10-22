@@ -1,0 +1,9 @@
+name: Hello World
+
+on: [ push ]
+jobs:
+  Demo:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: printing message
+        run: echo "GitHub Actions is working!"
